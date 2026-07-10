@@ -1,46 +1,39 @@
-#codealpha Internship
+#CODEALPHA INTERNSHIP
+
+**Domain:** C Programming  
 
 ## Task 1: Basic Calculator
+
 **Language:** C  
-**Description:** 
-A console-based calculator that performs basic arithmetic operations:
+**File:** `calculator.c`  
+
+**Description:**
+A simple console-based calculator that performs basic arithmetic operations.
+
+**Features:**
 - Addition `+`
-- Subtraction `-` 
+- Subtraction `-`
 - Multiplication `*`
 - Division `/`
 
-**File:** `calculator.c`  
 **How to Compile and Run:**
 ```bash
 gcc calculator.c -o calculator
-./calculator 16
-
-
+./calculator
 ## Task 2: Matrix Operator
 
 **Language:** C  
------
------
------
------
-------
+**File:** `matrix operator.c`  
 
-## Description
-A console-based C program to perform basic Matrix operations using 2D arrays and functions.
+**Description:**
+A C program to perform basic Matrix operations using functions and 2D arrays.
 
-### Features:
+**Features:**
 - Matrix Addition
-- Matrix Multiplication  
+- Matrix Multiplication
 - Matrix Transpose
 
----
-
-## File
-`matrix operator.c`
-
----
-
-## How to Compile and Run
+**How to Compile and Run:**
 ```bash
 gcc "matrix operator.c" -o matrix
 ./matrix
