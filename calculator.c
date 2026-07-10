@@ -12,12 +12,12 @@ int main()
     scanf("%f", &num1);
     
     printf("Enter operator: ");
-    scanf(" %c", &op);  // space mukkiyam
+    scanf(" %c", &op);  
     
     printf("Enter second number: ");
     scanf("%f", &num2);
     
-    // Switch case use panniruken
+    
     switch(op)
     {
         case '+':
