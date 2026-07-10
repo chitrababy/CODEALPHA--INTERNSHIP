@@ -1,7 +1,5 @@
 #include <stdio.h>
-#define MAX 10 // idhu mela irukanum
-
-// Function declarations
+#define MAX 10
 void addMatrix(int a[MAX][MAX], int b[MAX][MAX], int r, int c);
 void multiplyMatrix(int a[MAX][MAX], int b[MAX][MAX], int r1, int c1, int c2);
 void transposeMatrix(int a[MAX][MAX], int r, int c);
@@ -107,6 +105,6 @@ void transposeMatrix(int a[MAX][MAX], int r, int c)
     for(int i = 0; i < r; i++)
         for(int j = 0; j < c; j++)
             trans[j][i] = a[i][j];
-    printf("\nTranspose of Matrix:\n"); // inga dhan fix pannen
+    printf("\nTranspose of Matrix:\n;
     printMatrix(trans, c, r);
 }
